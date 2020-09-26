@@ -20,6 +20,10 @@ app.get('/',(req,res)=>{
 
 })
 
+// app.get('/chat',(req,res)=>{
+//     res.sendFile(path.join(__dirname,'../public/chat.html'))
+// })
+
 
 io.on('connection',(socket)=>{
 
